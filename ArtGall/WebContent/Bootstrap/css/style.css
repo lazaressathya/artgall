@@ -1,0 +1,72 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+.navbar
+{
+    padding: 20px 0 !important;
+    font-size: 20px;
+    
+}
+.navbar .navbar-brand
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.top-nav.collapse
+{
+    background-color: black;
+    padding: 0.7rem !important;
+}
+.landing-div
+{
+    background: white url("../../images/Panel-painting.jpg") no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.landing-wrapper
+{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.carousel .carousel-indicators li
+{
+    width: 30px;
+    height: 5px;
+    border-radius: 0%;
+}
+.carousel-caption
+{
+    bottom: 200px;
+}
+.btn
+{
+  border-radius: 100px;  
+    
+}
+.img-gallery
+{
+    
+   width: 1300px;
+    height: 350px;
+    
+}
+.card
+{
+    box-shadow: 0 0 5px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

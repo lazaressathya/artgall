@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ArtGall</display-name>
+  
+   <servlet>
+		<description>
+		</description>
+		<display-name>RegServlet_Controller</display-name>
+		<servlet-name>RegServlet_Controller</servlet-name>
+		<servlet-class>in.edu.kristhujayanthi.RegServlet_Controller</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>LoginController</display-name>
+		<servlet-name>LoginController</servlet-name>
+		<servlet-class>in.edu.kristhujayanthi.LoginController</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>seller</display-name>
+		<servlet-name>seller</servlet-name>
+		<servlet-class>in.edu.kristhujayanthi.seller</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>pay_serve</display-name>
+		<servlet-name>pay_serve</servlet-name>
+		<servlet-class>in.edu.kristhujayanthi.pay_serve</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>myprofile</display-name>
+		<servlet-name>myprofile</servlet-name>
+		<servlet-class>in.edu.kristhujayanthi.myprofile</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>delete_img</display-name>
+		<servlet-name>delete_img</servlet-name>
+		<servlet-class>in.edu.kristhujayanthi.delete_img</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>RegServlet_Controller</servlet-name>
+		<url-pattern>/Regi</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>LoginController</servlet-name>
+		<url-pattern>/log_page</url-pattern>
+	</servlet-mapping>
+  
+  
+    <servlet-mapping>
+		<servlet-name>seller</servlet-name>
+		<url-pattern>/sell</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>pay_serve</servlet-name>
+		<url-pattern>/pay</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>myprofile</servlet-name>
+		<url-pattern>/my_pro</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>delete_img</servlet-name>
+		<url-pattern>/delt</url-pattern>
+	</servlet-mapping>
+	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
